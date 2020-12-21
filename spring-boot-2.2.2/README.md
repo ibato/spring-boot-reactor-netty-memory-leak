@@ -52,7 +52,7 @@ public Mono<Void> releaseBody() {
 ## 해결
 `toBodiless()` 메소드를 쓰는 한 우회할 방법은 없습니다.
 
-스프링 5.2.6.RELEASE 에서 [이 커밋](https://github.com/spring-projects/spring-framework/commit/1822f272c754953c2527b5344b14cecfc5b76a9f)으로 수정이 되었습니다.
+스프링 5.2.6.RELEASE 에서 [이 커밋](https://github.com/spring-projects/spring-framework/commit/1822f272c754953c2527b5344b14cecfc5b76a9f)으로 수정이 되었습니다.  
 스프링 5.2.6.RELEASE, Spring Boot 2.2.7 이상을 사용한다면 더 이상 같은 문제가 발생하지 않습니다.
 
 ## 교훈

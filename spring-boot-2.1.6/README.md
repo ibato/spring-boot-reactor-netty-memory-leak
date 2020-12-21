@@ -62,7 +62,7 @@ private <T extends Publisher<?>> T handleBody(ClientResponse response,
 [이 이슈](https://github.com/spring-projects/spring-framework/issues/22005#issuecomment-453479197)를 보면, 
 일반적으로 어플리케이션에서 body 를 consume 할 것으로 기대하기 때문에 버그는 아니지만 개선하겠다고 답변합니다.
 
-스프링 5.1.9.RELEASE 에서 [이 커밋](https://github.com/spring-projects/spring-framework/commit/2aec175ccc5a5c3cbcd152697956ee5da90e5214)으로 수정이 되었습니다.
+스프링 5.1.9.RELEASE 에서 [이 커밋](https://github.com/spring-projects/spring-framework/commit/2aec175ccc5a5c3cbcd152697956ee5da90e5214)으로 수정이 되었습니다.  
 스프링 5.1.9.RELEASE 이상을 사용한다면 더 이상 같은 문제가 발생하지 않습니다. (exception 던지는 게 좋은 코드는 아니지만)
 
 ## 교훈
